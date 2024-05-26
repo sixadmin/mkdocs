@@ -1,4 +1,4 @@
 ---
 author: Richard CRUZ
-title: A propos
+title: Styling your docs
 ---

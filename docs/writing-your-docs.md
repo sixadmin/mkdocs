@@ -1,4 +1,4 @@
 ---
 author: Richard CRUZ
-title: A propos
+title: Writing your docs
 ---

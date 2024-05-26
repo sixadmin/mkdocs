@@ -4,5 +4,6 @@ title: Tutoriel Mkdocs sous docker
 ---
 
 
-# DOCUMENTATION
-
+nav:
+  - Accueil: 'index.md'
+  - A propos: 'about.md'

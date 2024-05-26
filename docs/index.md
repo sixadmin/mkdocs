@@ -1,6 +1,6 @@
 ---
 author: Richard CRUZ
-title: Tutoriel Mkdocs sous docker
+title: Accueil
 nav:
   - Home: 'index.md'
   - 'User Guide':

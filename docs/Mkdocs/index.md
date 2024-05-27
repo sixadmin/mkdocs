@@ -38,3 +38,5 @@ networks:
   read:
     external: true
 ```
+
+L'interêt de l'image [polinux/mkdocs](https://hub.docker.com/r/polinux/mkdocs) est de permettre la mise à jour automatique de la documentation. A intervalle régulier, le container va checker le depôt gitlab et va mettre à jour le site automatiquement.

@@ -1,2 +1,2 @@
 # mkdocs
-Documen mkdocs
+Documentation mkdocs

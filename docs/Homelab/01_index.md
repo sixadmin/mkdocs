@@ -9,3 +9,5 @@ title: Mes logiciels préférés
 - [Vikunja](./4_vikunja.md)
 - [Jellyfin](./5_jellyfin.md)
 - [Guacamole](./6_guacamole.md)
+- [Snibox](./7_snibox.md)
+- [Traefik](./8_traefik.md)

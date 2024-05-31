@@ -11,3 +11,5 @@ title: Mes logiciels préférés
 - [Guacamole](./06_guacamole.md)
 - [Snibox](./07_snibox.md)
 - [Traefik](./08_traefik.md)
+- [Mailpit](./09_mailpit.md)
+- [Paperless-ngx](./10_paperless.md)

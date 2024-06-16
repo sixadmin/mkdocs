@@ -45,3 +45,79 @@ On distingue classiquement deux types de tension électrique : la tension contin
 
 La tension continue est constante dans le temps et ne change pas de polarité, c’est par exemple la tension délivrée par un générateur, comme une pile ou une batterie. La tension alternative varie constamment dans le temps et change de polarité. Dans nos foyers, la tension sur les prises domestiques est de 230 V (valeur dite “efficace”), il s’agit en fait d’un signal électrique sinusoïdal avec une fréquence de 50Hz (le signe de la tension change 100 fois par seconde), qui varie entre +325 volts et -325 volts.
 
+## La loi d'ohm
+
+### Qu'est que la résistance ?
+
+La résistance éléctrique est la capacité à opposer une plus ou moins grande résistance à la circulation du courant éléctrique.
+
+Les isolants ont une très grande résistance éléctrique. il'y aucun courant qui s'y forme. ex: platique, bois, verre.
+
+Les conducteurs métallique ont une faible résistance et laisse passer le courant, ex: cuivre, argent, or.
+
+Les semi-conducteurs sont un mix entre les deux: ils laissent passer le courant selon certaines conditions. 
+
+Chaque matériau a sa propre résistance exprimé en ohm (Ω)
+
+Plus la résistance est faible, mieux le courant passera. La résistance d'un matériau limite la vitesse de déplacement des éléctrons mesurée en Ampères.
+
+La formule de la loi d'ohm est:
+
+> U=R.I
+
+U: tension en volt (V).
+R: Résistance en ohm (Ω).
+I: Intensité en Ampère (A).
+
+
+Le symbole de la résistance est: 
+
+![Resistance](../img/resistance.png)
+
+#### Résistance en série
+
+![Série](../img/circuit.png)
+
+R1= 100Ω
+R2= 200Ω
+R3= 150Ω
+
+Résistance équivalante
+Req = R1 + R2 + R3 = 100 + 200 + 150 = 450Ω
+
+> U=R.I <=> I=U/R
+
+I = 5/450
+I=0.0.111 soit 11mA
+
+#### Résistance en parallèle
+
+![Parallèle](../img/circuitpara.png)
+
+S'il n'y a que deux résistances
+
+Resistance équivalent :
+
+Req = R1 * R2 / (R1 + R2)
+Req = 100 * 200 / (100 + 200)
+Req = 66.6Ω
+
+![Parallèle](../img/circuitpara2.png)
+
+Si 2 résistances ou plus
+Req = 1 / ((1/R1) + (1/R2) +(1/R3))
+
+Req = 1 / ((1/100) + (1/200) +(1/150))
+Req = 46.1Ω
+
+#### Résistance en série et en parallèle
+
+![Parallèle](../img/circuitpara3.png)
+
+R1= 100Ω R3= 150Ω
+R2= 200Ω R4= 300Ω
+
+Req = R1 + ((R2 * R4)/(R2 + R4)) + R3
+
+Req = 100 + ((200 * 300)/(200 + 300)) + 150
+Req = 370Ω

@@ -38,6 +38,12 @@ Sur le multi, on prend le réperage 20V car on sait que c'est moins.
 
 Sur un multimètre automqtique, on se met juste sur V
 
+Quand on ne connait pas la tension, on prend la valeur la plus élévé du multimètre et on baisse jusqu'à obtenir un 1, cela signifie qu'on est allé trop loin, on retourne d'un cran pour avoir la bonne tension.
+
+Les prises de courant ont un courant alternatif. Le courant alterne de direction en avancant et reculant. Le tilde est la representation du courant dans l'oscilloscope.
+
+Toujours brancher le fil noir (neutre) en premier. Si on branche l'autre en premier, on aura du courant dans celui-ci.
+
 ## Mesurer l'intensité
 
 On se postionne sur mA pour mesurer jusqu'à 200 mA max, soit A pour 10 A max (Selon le multimètre)
@@ -48,7 +54,7 @@ En Ampermètre, faible résistance donc on se met en série.
 
 ## Mesurer une résistance.
 
-Elle doit être en dehors du circuit pour ne pas fausser le mesure.
+Elle doit être en dehors du circuit imprimé pour ne pas fausser le mesure.
 
 Si on ne connait pas la valeur, on part de la plus haute à la plus basse.
 

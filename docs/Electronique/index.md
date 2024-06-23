@@ -121,3 +121,15 @@ Req = R1 + ((R2 * R4)/(R2 + R4)) + R3
 
 Req = 100 + ((200 * 300)/(200 + 300)) + 150
 Req = 370Ω
+
+## La loi des noeuds
+
+La somme des courants entrant est égale à la somme des courants sortants
+
+## La loi des mailles
+
+La somme des tensions d'une maille doit être nulle
+
+![Loi des mailles](../img/loimaille.png)
+
+

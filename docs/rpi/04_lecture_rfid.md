@@ -1,6 +1,6 @@
 ---
 author: Richard CRUZ
-title: Lecture RFID sur un RPI
+title: Lecture RFID surd un RPI
 ---
 
 https://raspberry-pi.fr/rfid-raspberry-pi/

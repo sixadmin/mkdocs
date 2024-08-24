@@ -89,3 +89,5 @@ Pour autoriser de nouveau l'IP, on utilisera la commande suivante:
 ```
 fail2ban-client set <jail-name> unbanip <ip-address>
 ```
+
+Source pour installer fail2ban: https://hostnextra.com/learn/tutorials/how-to-install-fail2ban-on-ubuntu
